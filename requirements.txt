@@ -1,6 +1,9 @@
 dash
+dash-bootstrap-components
+requests
 pandas
 numpy
 plotly
-requests
 gunicorn
+secure-smtplib
+email-validator
