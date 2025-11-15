@@ -52,7 +52,7 @@ CONSUMER_KEY = "bwrYETJX1vaWbOXFTrf7A55oTgfC9YQNq1zoe6bScn6pnkmI"
 CONSUMER_SECRET = "y1Njn0Aiq18khzQ5eGJneSG1Ju5dXICMv6ZXGatzEiymyhcGFfdCy1B0ode3MYCS"
 SHORTCODE = "174379"  # sandbox test shortcode
 PASSKEY = "bfb279f9aa9bdbcf158e97dd71a467cd2e0c893059b10f78e6b72ada1ed2c919"
-CALLBACK_URL = "https://your-public-callback-url.example.com/mpesa_callback"
+CALLBACK_URL = "https://backspace-drb0.onrender.com"
 
 # ----------------------------
 # Helpers: users file read/write
