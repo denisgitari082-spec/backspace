@@ -357,7 +357,7 @@ def registration_layout():
                 },
                 children=[
 
-                    html.H2("Welcome", style={'color': '#58a6ff', 'marginBottom': '20px'}),
+                    html.H2("Hi there", style={'color': '#58a6ff', 'marginBottom': '20px'}),
 
                     # Tabs for Register / Login
                     dbc.Tabs(
@@ -620,24 +620,24 @@ def donation_layout():
 
         # Popup window (centered)
         html.Div([
-            html.H2("Donation (M-Pesa STK Push - Sandbox)", style={'color':'#1f6feb', 'marginBottom':'10px'}),
+            html.H2("Donate(help us reach more people)", style={'color':'#1f6feb', 'marginBottom':'10px'}),
             html.P("Enter phone number in format 0xxxxxxxxx and amount (KES). This uses Safaricom sandbox credentials.", style={'color':'white'}),
 
             html.Div([
-                html.Label("Phone Number (0xxxxxxxxx)", style={'color':'white'}),
+                html.Label(style={'color':'white'}),
                 dcc.Input(
                     id='donate-phone',
                     type='text',
-                    placeholder='0xxxxxxxxx',
+                    placeholder='Phone number',
                     style={'width':'60%', 'marginTop':'5px'}
                 ),
                 html.Br(), html.Br(),
 
-                html.Label("Amount (KES)", style={'color':'white'}),
+                html.Label(style={'color':'white'}),
                 dcc.Input(
                     id='donate-amount',
                     type='number',
-                    placeholder='100',
+                    placeholder='Amount',
                     style={'width':'40%', 'marginTop':'5px'}
                 ),
                 html.Br(), html.Br(),
