@@ -163,12 +163,12 @@ APP_STYLE = {'backgroundColor':'#0d1117','color':'#fff','fontFamily':'Segoe UI, 
 app.layout = html.Div([
     dcc.Store(id='registered-user', storage_type='session'),
 html.Div([
-    dcc.Link("Dashboard", href="/", style={'padding':'12px 16px','color':'white','textDecoration':'none','fontWeight':'600'}),
-    dcc.Link("Registration", href="/register", style={'padding':'12px 16px','color':'white','textDecoration':'none','fontWeight':'600'}),
-    dcc.Link("AI Section", href="/ai", style={'padding':'12px 16px','color':'white','textDecoration':'none','fontWeight':'600'}),
-    dcc.Link("Donation", href="/donation", style={'padding':'12px 16px','color':'white','textDecoration':'none','fontWeight':'600'}),
-    dcc.Link("Partnership", href="/partnership", style={'padding':'12px 16px','color':'white','textDecoration':'none','fontWeight':'600'}),
-    dcc.Link("AI Secretary", href="/ai_secretary", style={'padding':'12px 16px','color':'white','textDecoration':'none','fontWeight':'600'})
+    dcc.Link("Home", href="/", style={'padding':'12px 16px','color':'white','textDecoration':'none','fontWeight':'600'}),
+    dcc.Link("Register/login", href="/register", style={'padding':'12px 16px','color':'white','textDecoration':'none','fontWeight':'600'}),
+    dcc.Link("AI ideas", href="/ai", style={'padding':'12px 16px','color':'white','textDecoration':'none','fontWeight':'600'}),
+    dcc.Link("Donate", href="/donation", style={'padding':'12px 16px','color':'white','textDecoration':'none','fontWeight':'600'}),
+    dcc.Link("Join us!", href="/partnership", style={'padding':'12px 16px','color':'white','textDecoration':'none','fontWeight':'600'}),
+    dcc.Link("AI manager", href="/ai_secretary", style={'padding':'12px 16px','color':'white','textDecoration':'none','fontWeight':'600'})
 ], style={
     'backgroundColor':'#1f6feb',
     'display':'flex',
