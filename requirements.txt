@@ -8,3 +8,6 @@ pytz==2025.2
 matplotlib==3.10.7
 mplfinance==0.12.10b0
 requests==2.32.5
+
+Flask==3.1.2
+gunicorn
